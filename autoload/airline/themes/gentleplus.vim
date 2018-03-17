@@ -4,7 +4,7 @@
 " URL:www.trevdev.ca
 " Author: Trevor B
 " License: MIT
-" Last Change: 2018/03/17 08:18
+" Last Change: 2018/03/17 08:27
 " ============================================================
 
 let g:airline#themes#gentleplus#palette = {}
@@ -14,9 +14,9 @@ let s:normal2 = [ "#282828", "#73cef4", 235, 81 ]
 let s:normal3 = [ "#44778d", "#b3deef", 66, 153 ]
 let g:airline#themes#gentleplus#palette.normal = airline#themes#generate_color_map(s:normal1, s:normal2, s:normal3)
 
-let s:insert1 = [ "#5fd700", "#464632", 76, 238 ]
+let s:insert1 = [ "#87d787", "#464632", 114, 238 ]
 let s:insert2 = [ "#282828", "#87ffaf", 235, 121 ]
-let s:insert3 = [ "#6a6b3f", "#5fd700", 242, 76 ]
+let s:insert3 = [ "#6a6b3f", "#87d787", 242, 114 ]
 let g:airline#themes#gentleplus#palette.insert = airline#themes#generate_color_map(s:insert1, s:insert2, s:insert3)
 
 let s:replace1 = [ "#f43753", "#79313c", 203, 237 ]

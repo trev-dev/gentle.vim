@@ -4,7 +4,7 @@
 " URL: www.trevdev.ca
 " Author: Trevor B
 " License: MIT
-" Last Change: 2018/03/17 08:18
+" Last Change: 2018/03/17 08:27
 " ============================================================
 
 let s:p = {"normal": {}, "inactive": {}, "insert": {}, "replace": {}, "visual": {}, "tabline": {} }
@@ -19,9 +19,9 @@ let s:p.inactive.left = [[["#bbbbbb", 250], ["#444444", 238]], [["#bbbbbb", 250]
 let s:p.inactive.middle = [[["#bbbbbb", 250], ["#666666", 242]]]
 let s:p.inactive.right = [[["#bbbbbb", 250], ["#444444", 238]], [["#bbbbbb", 250], ["#444444", 238]]]
 
-let s:p.insert.left = [[["#5fd700", 76], ["#6a6b3f", 242]], [["#282828", 235], ["#87ffaf", 121]]]
-let s:p.insert.middle = [[["#6a6b3f", 242], ["#5fd700", 76]]]
-let s:p.insert.right = [[["#5fd700", 76], ["#6a6b3f", 242]], [["#282828", 235], ["#87ffaf", 121]]]
+let s:p.insert.left = [[["#87d787", 114], ["#6a6b3f", 242]], [["#282828", 235], ["#87ffaf", 121]]]
+let s:p.insert.middle = [[["#6a6b3f", 242], ["#87d787", 114]]]
+let s:p.insert.right = [[["#87d787", 114], ["#6a6b3f", 242]], [["#282828", 235], ["#87ffaf", 121]]]
 
 let s:p.replace.left = [[["#f43753", 203], ["#79313c", 237]], [["#282828", 235], ["#c5152f", 160]]]
 let s:p.replace.middle = [[["#282828", 235], ["#f43753", 203]]]
