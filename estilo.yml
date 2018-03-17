@@ -1,0 +1,29 @@
+name: 'gentle'
+version: '1.0.0'
+license: 'MIT'
+author: 'Trevor B'
+url: 'www.trevdev.ca'
+description: 'A modified version of jacoborus gentle'
+colorschemes:
+  - name: gentle
+    background: 'dark'
+    palette: gentle
+    description: 'A dark theme for Vim'
+airline:
+  - name: 'gentle'
+    palette: 'gentle'
+    style: 'regular'
+    description: 'Gentle Airline theme'
+  - name: 'gentleplus'
+    palette: 'gentle'
+    style: 'plus'
+    description: 'Gentle Plus Airline theme'
+lightline:
+  - name: 'gentle'
+    palette: 'gentle'
+    style: 'regular'
+    description: 'Gentle Lightline theme'
+  - name: 'gentleplus'
+    palette: 'gentle'
+    style: 'plus'
+    description: 'Gentle Lightline theme'
